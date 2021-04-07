@@ -76,7 +76,7 @@ body{
     grid-row: auto;
     /*background: url(imagenes/counter.jpg) no-repeat center center;*/
     max-width: 100% 100%;
-    background-size: cover;  
+    background-size: cover; 
 }
 @media(max-width: 900px){
     .contenido .gallery{
