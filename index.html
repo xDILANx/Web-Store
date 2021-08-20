@@ -11,22 +11,24 @@
 </head>
 <body>
     <div class="contenedor">
-
-        <main id="logo" class="abrir">
+        <main id="logo">
         <header class="menu">
-            <i class="fa fa-bars" aria-hidden="true"></i>
-            <i class="fas fa-shopping-cart"></i>
+            <div id="brand">
+                <a href="#logo"><h2>MARCA</h2></a>
+                <a href="#logo"><img src="imagenes/m.png" alt=""></a>
+            </div>
+            <div id="textMenu">
+                <a href="#products"><h2 id="textMan">MAN</h2></a>
+                <a href="#products"><h2 id="textWoman">WOMAN</h2></a>
+                <a href="#products"><h2 id="textKid">KID</h2></a>
+            </div>
+            <div id="icons">
+                <i class="fas fa-shopping-cart" style="font-size: 25px"></i>
+                <a href="#footer"><img src="imagenes/phone.png" alt=""></a>
+            </div>
         </header>
         </main>
-
-        <aside id="menu-lateral" class="cerrar">
-            <h2>MENU</h2>
-                <a href="">Inicio</a>
-                <a href="">Servicios</a>
-                <a href="">Productos</a>
-                <a href="">Contactos</a>
-        </aside>  
-
+        
         <div class="contenido">
             <div class="gallery">
                     <div class="thumb">
@@ -58,45 +60,70 @@
                     </div>
             </div>
         </div>
-
-        <div id="shoppingCart">
-
+        <div class="section" id="sectionOne">
+            <div id="text">
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Distinctio facere aspernatur id adipisci magni ad repellat 
+                    dolores rem, dignissimos commodi incidunt est pariatur at enim 
+                    molestiae dolore ab delectus dolor?</P>
+            </div>
+        
         </div>
         <div id="products">
-            <div id="man">
+            <div class="preferences" id="man">
+                <img src="imagenes/pexels-spencer-selover-775358.jpg" alt="">
                 <h1>Man</h1>
             </div>
-            <div id="woman">    
+            <div class="preferences" id="woman"> 
+                <img src="imagenes/pexels-vova-krasilnikov-2726161.jpg" alt="">   
                 <h1>Woman</h1>
             </div>
-            <div id="kid">
+            <div class="preferences" id="kid">
+                <img src="imagenes/pexels-victoria-borodinova-1094084.jpg" alt="">
                 <h1>Kid</h1>
             </div>
         </div>
-            
-        <footer class="footer">
-            <div class="registro">
-                <form action="" method="POST">
-                    <div class="login">
-                        <h1>Login</h1>
-                    </div>
-                    <div class="text">
-                        <i class="fa fa-user" aria-hidden="true"></i>
-                        <input type="email" name="Correo" required="" autocomplete="on" placeholder="Username">
-                    </div>
-                    <div class="text">
-                        <i class="fa fa-lock" aria-hidden="true"></i>
-                        <input type="password" name="Contraseña" required="" autocomplete="off" placeholder="Password" >
-                    </div>
-                    <div class="button">
-                        <input type="submit" value="Sing in">
-                    </div>
-                </form>
+
+        <div class="section" id="sectionTwo">
+            <div id="text">
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Distinctio facere aspernatur id adipisci magni ad repellat 
+                    dolores rem, dignissimos commodi incidunt est pariatur at enim 
+                    molestiae dolore ab delectus dolor?</P>
             </div>
-        </footer>
+        </div>
+        <div id="footer">
+            <div id="socialFooter">
+                <img src="imagenes/facebook.png" alt=""><br>
+                <img src="imagenes/instagram.png" alt=""><br>
+                <img src="imagenes/twitter.png" alt="">
+            </div>
+            <div id="textFooter">
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Distinctio facere aspernatur id adipisci magni ad repellat 
+                    dolores rem, dignissimos commodi incidunt est pariatur at enim 
+                    molestiae dolore ab delectus dolor?</P>
+            </div>
+            <form id="form">
+                <center>CONTACTAR</center>
+                <input type="text" name="Nombre" required="true" autocomplete="on" placeholder="Nombre"></input>
+                <input type="text" name="Apellido" required="true" autocomplete="on" placeholder="Apellido"></input>
+                <input type="email" name="email" required="true" autocomplete="on" placeholder="Correo" ></input>
+                <input type="tel" name="number" required="true" autocomplete="of" placeholder="Celular"></input>
+                <input type="submit" value="Enviar" 
+                style=
+                "background:white; 
+                 color:black; 
+                 border-radius:5px; 
+                 margin-top: 20px;">
+                 </input>
+            </form>
+        </div>
+        <div id="footerPolitics">
+            
+
+        </div>
     </div>  
-
-    <script src="main.js" charset="utf-8"></script>
-
+    <script src="main.js" charset="utf-8"></script> 
 </body>
 </html>

@@ -1,0 +1,116 @@
+
+/*----------------------------------SHOPPINGPRODUCT---------------------------------------*/
+#shoppingProduct{  
+    width: 100%;
+    height: 100%;
+    background:#fff;
+}
+#productBuy{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#images{
+    display: flex;
+    gap: 10px;
+    justify-content:flex-end;
+    width: 60%;
+    padding-right: 40px;
+}
+#side{
+    display: flex;
+    flex-direction: column;
+    width: 12%;
+    gap: 10px;
+}
+.side{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px;
+    transition: all 400ms ease;
+}
+.side:hover{
+    box-shadow: 5px 5px 20px;
+}
+#containImg{
+    width: 70%;
+    border-radius: 5px;
+    background: #4a4a4a;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px;
+    transition: all 400ms ease;
+}
+#containImg:hover{
+    box-shadow: 5px 5px 20px;
+}
+#containImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#productInformation{
+    width: 30%;
+    display: grid;
+    gap: 10px;
+    align-items: center;
+    padding: 60px;
+    font-family:sans-serif;
+    color:rgb(95, 87, 87);
+}
+#selectSize{
+    height: 25px;
+}
+#buttonAddCar{
+    background:turquoise;
+    color: #fff;
+    border: none;
+    height: 30px;
+}
+#buttonQuickBuy{
+    background: #fff;
+    border: 1px solid turquoise;
+    color: turquoise;
+    height: 30px;
+}
+#buttonAddFavorite{
+    border: 1px solid rgb(177, 172, 172);
+    height: 30px;
+}
+#details{
+    display: flex;
+    justify-content: center;
+}
+#productDetails{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    width: 40%;
+    border-top: solid 1px #a7a3a3;
+    border-right: solid 1px #a7a3a3;
+    font-size: 12px;
+    line-height: 20px;
+    color: #4a4a4a;
+    font-family: Arial,Helvetica,sans-serif; 
+}
+#moreProducts{
+    width: 40%;
+    border-top: solid 1px #a7a3a3;
+}
+#containMethodsPayment{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 20vh;
+}
+#methodsPayment{
+    display: flex;
+    align-items: center;
+    border-top: solid 1px #a7a3a3;
+    border-bottom: solid 1px #a7a3a3;
+    width: 80%;
+    height: 50%;
+}
